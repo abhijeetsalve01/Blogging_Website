@@ -3,9 +3,10 @@
 
 Install the NPM Packages/Dependencies
 
-Run NPM Install on Command Line
+# Run NPM Install on Command Line
 
-Run NPM Start 
-start the server
+# Run NPM Start 
+
+# Start the server
 
 
