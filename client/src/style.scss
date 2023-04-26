@@ -1,0 +1,574 @@
+$lightgrey : #6B6B6B;
+$lightwhite :#F7F7F7;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family:'FONTSPRING DEMO - Roc Grotesk Medium' ;
+    src: url();
+}
+.app {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 1536px;
+
+        .link {
+            text-decoration: none;
+            color: inherit;
+
+
+        }
+
+
+        //Login and Register
+        .auth {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: radial-gradient(64% 64% at 47.14% 50%, #FFFFFF 0%, #777777 100%)
+                /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+            ;
+
+
+            h1 {
+                margin-top: 10px;
+                font-size: 50px;
+                font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                font-weight: 700;
+
+            }
+
+            form {
+
+                display: flex;
+                flex-direction: column;
+                padding: 90px;
+                background-color: $lightwhite;
+                width: 100px;
+                border-radius: 25px;
+                gap: 25px;
+                width: 500px;
+                height: 400px;
+                left: -127px;
+                top: -20px;
+                font-size: medium;
+
+                input {
+                    margin-top: 35px;
+                    padding: 12px;
+                    border-radius: 9px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 800;
+                    border: none;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+                    font-size: medium;
+                }
+
+                button {
+                    position: relative;
+                    margin-top: 25px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 10px;
+                    border-radius: 20px;
+                    width: 194px;
+                    height: 45px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 800;
+                    background-color: #6B6B6B;
+                    border: none;
+                    color: white;
+                    font-size: large;
+                    cursor: pointer;
+
+                }
+
+                p {
+                    color: red;
+                    font-size: 18px;
+                    text-align: center;
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                span {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        //Navbar Design
+        .navbar {
+            .container {
+                padding: 10px 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .logo {
+                    img {
+                        width: 300px;
+                        margin-left: 20px;
+                    }
+                }
+
+                .links {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    margin-right: 50px;
+
+
+                    h6 {
+                        font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                        font-size: 16px;
+                        font-weight: 150;
+
+                    }
+
+                    span {
+                        cursor: pointer;
+                        font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                        font-size: 16px;
+                        font-weight: 150;
+                        text-decoration: underline;
+                        font-weight: bolder;
+
+
+
+                    }
+
+                    .write {
+                        text-decoration: none !important;
+
+                        button {
+                            text-decoration: none;
+                            padding: 6px;
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            font-size: 16px;
+                            font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                            margin: 0px;
+                            display: flex;
+                            align-items: center;
+                            color: white;
+                            background-color: black;
+                            border-radius: 20px;
+                            font-weight: 400;
+                            cursor: pointer;
+                            border: none;
+        
+
+                            &:hover {
+                                text-decoration: none;
+                                color: white;
+                                background: linear-gradient(102.62deg, #45CBFF -8.99%, #AD00FF 109.91%);
+                                border-radius: 20px;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //footer design
+        footer {
+            margin-right: 10px;
+            margin-top: 100px;
+            padding: 20px;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            background: linear-gradient(102.62deg, #45CBFF -8.99%, #AD00FF 109.91%);
+
+            img {
+                height: 50px;
+
+            }
+
+            span {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+
+
+        //home page
+
+        .uppertext {
+            margin-top: 100px;
+
+            .theblog {
+                display: flex;
+                margin-top: 80px;
+                align-items: center;
+                flex-direction: column;
+                font-size: 24px;
+                font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+            }
+
+            .writings {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-size: 64px;
+                font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+            }
+
+            .news {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-size: 16px;
+                font-family: 'Roboto' sans-serif;
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+
+        .theblog {
+            span {
+                display: flex;
+                align-items: center;
+                font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+            }
+        }
+
+        //Design Home page
+        .home {
+
+            .theblog {
+                span {
+                    position: relative;
+                    margin-left: 700px;
+                    margin-top: 80px;
+                    font-size: 24px;
+                    font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                }
+            }
+
+            .writings {
+                span {
+                    position: relative;
+                    margin-left: 400px;
+                    font-size: 64px;
+                    font-weight: 500;
+                    font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                }
+            }
+
+            .latest {
+                span {
+                    position: relative;
+                    margin-left: 490px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+
+            .posts {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 150px;
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-top: 150px;
+        
+                .post {
+                  display: flex;
+                  gap: 100px;
+        
+                  &:nth-child(2n + 1) {
+                    flex-direction: row-reverse;
+                  }
+        
+                  .img {
+                    flex: 2;
+                    position: relative;
+        
+                    &::after {
+                      content: "";
+                      width: 100%;
+                      height: 100%;
+                      background: linear-gradient(102.62deg, #45CBFF -8.99%, #AD00FF 109.91%);
+                      position: absolute;
+                      top: 5px;
+                      left: -10px;
+                      z-index: -1;
+                    }
+        
+                    img {
+                      width: 100%;
+                      max-height: 400px;
+                      object-fit: cover;
+                    }
+                  }
+        
+                  .content {
+                    flex: 3;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    
+        
+                    h1 {
+                      font-size: 34px;
+                      font-weight: 800;
+                      font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                    }
+        
+                    p {
+                    
+                      font-size: 16px;
+                      font-weight: 500;
+                      font-family: 'Roboto', sans-serif;
+                    }
+
+                        button {
+                            background-color: black;
+                            color: white;
+                            width: max-content;
+                            padding: 10px 20px;
+                            border: none;
+                            border-radius: 20px;
+                            cursor: pointer;
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 700;
+
+                            &:hover {
+                                // border: 1px solid black;
+                                background: linear-gradient(102.62deg, #45CBFF -8.99%, #AD00FF 109.91%);
+                                color: white;                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        //Single page edit
+        .single {
+            display: flex;
+            gap: 50px;
+            margin-left: 20px;
+
+            .content {
+                flex: 5;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                img {
+                    width: 100%;
+                    height: 80%;
+                    object-fit: cover;
+                }
+
+                .user {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: 14px;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    span {
+                        font-family: "Roboto", sans-serif;
+                        font-weight: bold;
+                    }
+                }
+
+                .edit {
+                    display: flex;
+                    gap: 15px;
+
+                    img {
+
+                        cursor: pointer;
+                    }
+                }
+
+                h1 {
+                    font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                    font-size: 42px;
+                    color: black;
+                }
+
+                p {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 600;
+                    text-align: justify;
+                    line-height: 30px;
+                }
+            }
+
+            .menu {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                margin-right: 30px;
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                .post {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        width: 100%;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+
+                    button {
+                        background-color: black;
+                        color: white;
+                        width: max-content;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 700;
+
+                        &:hover {
+                            // border: 1px solid black;
+                            background: linear-gradient(106.24deg, #3DFFFF -1.31%, #FF45EC 46.44%, #FF4848 100%);
+                            color: white;                        }
+                    }
+                }
+            }
+        }
+
+        //Write Page
+        .add {
+            margin-top: 20px;
+            margin-left: 20px;
+            display: flex;
+            gap: 20px;
+
+            .content {
+                flex: 5;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                input {
+                    padding: 10px;
+                    border: 1px solid lightgray;
+                }
+
+                .editorContainer {
+                    height: 360px;
+                    overflow: scroll;
+                    border: 1px solid lightgray;
+
+                    .editor {
+                        height: 100%;
+                        border: none;
+                    }
+                }
+            }
+
+
+            .menu {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .item {
+                    margin-right: 15px;
+                    border: 1px solid lightgray;
+                    padding: 20px;
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-size: 18px;
+                    color: black;
+                    gap: 12px;
+                    h1{
+                        font-size: 24px;
+                        font-family: 'FONTSPRING DEMO - Roc Grotesk Medium';
+                    }
+
+                    .cat{
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 600;
+                        color: black;
+    
+                    }
+
+                    .file{
+                        text-decoration: underline;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 700;
+                        cursor: pointer;
+
+                        &:hover {
+                            // border: 1px solid black;
+                            
+                            color: black;
+                        }
+                    }
+
+
+
+                    .buttons{
+                        margin-top: 10px;
+                        display: flex;
+                        gap: 8px;
+
+                        button {
+                            background-color: black;
+                            color: white;
+                            width: max-content;
+                            padding: 8px 16px;
+                            border: none;
+                            border-radius: 20px;
+                            cursor: pointer;
+                            font-family: "Roboto", sans-serif;
+                            font-weight: 700;
+    
+                            &:hover {
+                                // border: 1px solid black;
+                                background: linear-gradient(102.62deg, #45CBFF -8.99%, #AD00FF 109.91%);
+                                color: white;
+                            }
+                        }
+                        
+
+
+                        
+
+
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+}
